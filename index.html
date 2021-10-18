@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="tema-color" content="#317EFB" />
+    <title>Inicio</title>
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet" />
+    
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/Facci.png" alt="Logo Facci">
+            <h1>Facultad de Ciencias Informáticas</h1>
+        </header>
+
+            <div class="contenido">
+                <form action="" class="form-codigo" id="form-codigo">
+                    <div class="form-titulo">
+                        <h3>Registro</h3>
+                    </div>
+
+                    <div class="input-group regnombre">
+                        <input type="text" class="form-input" name="form-input" id="regnombre" >
+                        <label class="label" for="reg-nombre">Nombres</label>
+                        <p class="error" id="error"></p>
+                    </div>
+
+                    <div class="input-group regap">
+                        <input type="text" class="form-input" name="form-input" id="regap" >
+                        <label class="label" for="regap">Apellidos</label>
+                        <p class="error" id="error"></p>
+                    </div>
+
+                    <div class="input-group regfecha">
+                        <p>Fecha de Nacimiento</p></br>
+                        <input type="date" class="forminput" name="form-input" id="regfecha" >
+                        <p class="error" id="error"></p>
+                    </div>
+    
+                    <div class="input-group regcorreo">
+                        <input type="email" class="form-input" name="form-input" id="regcorreo" >
+                        <label class="label" for="regcorreo">Correo</label>
+                        <p class="error" id="error"></p>
+                    </div>
+    
+                    <div class="input-group regtelf">
+                        <input type="text" class="form-input" name="form-input" id="regtelf" >
+                        <label class="label" for="regtelf">Telefono</label>
+                        <p class="error" id="error"></p>
+                    </div>
+    
+                    <div class="input-group regpass">
+                        <input type="password" class="form-input" name="form-input" id="regpass" >
+                        <label class="label" for="regpass">Contraseña</label>
+                        <p class="error" id="error"></p>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="submit" class="form-input" value="Registrate">
+                    </div>
+                  
+                        <p class="enviado"></p>
+                    
+                </form>
+            </div>
+    </div>
+
+    
+    <script src="script/scrip.js" type="text/javascript"></script>
+</body>
+</html>

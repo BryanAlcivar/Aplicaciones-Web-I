@@ -1,0 +1,165 @@
+
+body {
+    background-image: url(../img/fondo.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error{
+    width: 2100px;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 50px;
+    color: red;
+}
+
+.enviado{
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;   
+    padding-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+    background: #fff;
+    width: 700px;
+    height:800px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+:root{
+    --enviado:  red;
+}
+
+header {
+    background: #021e26;
+    text-align: center;
+    padding: 30px 0 40px;
+    clip-path:calc(0 0, 100% 0%, 100% 74%, 0% 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header img {
+    vertical-align: top;
+    width: 250px;
+}
+
+header h1 {
+    color: #fff;
+    font-family:Impact,sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+header span {
+    color: #ff0000;
+}
+
+.form-codigo {
+    padding: 10px 20px 20px;
+}
+
+
+.form-titulo {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 32px;
+    overflow: hidden;
+    font-family: Impact,sans-serif;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+input[type="email"],input[type="password"],input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #021e26;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    color: #021e26;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type="submit"] {
+    background: none;
+    border: none;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0;
+    font-family: Impact,sans-serif;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    transition: all .5s ease;
+    letter-spacing: 1px;
+}
+
+
+input[type="submit"]:hover {
+    background: #02c2f7;
+}
+input[type="date"]{
+    overflow: hidden;
+}
+.input-group > p {
+    color: #030303;
+    text-align: center;
+    font-size: 14px;
+}
+
+.input-group p > a {
+    text-decoration: none;
+    color: #039BE5;
+}
+
+.input-group p > a:hover {
+    text-decoration: underline;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #131211;
+    padding-left: 10px;
+    cursor: text;
+    transition: all .3s ease;
+}
+
+.form-input:focus + label {
+    top: -14px;
+    font-size: 12px;
+    color: #656665;
+}
+
+.active {
+    top: -14px;
+    font-size: 12px;
+    color: #656665;
+
+}
+
+.input-group p{
+    text-align: left;
+}
